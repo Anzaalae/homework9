@@ -156,7 +156,7 @@ int main()
         printf("Result of Matrix A * B\n"); // 행렬 곱을 수행
         multiply_matrix(multiply, p1, p2, row1, col1, col2);
     }
-    else printf("can not calculate Matrix A * Matrix B...\n\n"); // 행렬 곱셈이 불가능한 경우
+    else printf("can not calculate Matrix A * Matrix B...\n\n"); // 행렬 곱셈이 불가능한 경우 출력
 
     free_matrix(p1, row1); // 행렬 A와 행렬 B 데이터 메모리 할당 해제
     free_matrix(p2, row2);
