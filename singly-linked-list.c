@@ -16,7 +16,7 @@ typedef struct Node {
 	struct Node* link;
 } listNode;
 
-// 연결리스트 헤드 구조체
+// 연결리스트 headNode 구조체
 typedef struct Head {
 	struct Node* first;
 } headNode;
