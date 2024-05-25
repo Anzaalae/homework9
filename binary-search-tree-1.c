@@ -140,7 +140,7 @@ void preorderTraversal(Node* ptr)
 {
 	// 왼쪽 자식 노드와 오른쪽 자식 노드에 대해 재귀호출을 수행하면서 leaf 노드까지 탐색
 	// preorder traversal 이므로 현재 노드의 key값을 출력한 뒤
-	// 왼쪽 자식 노드, 오른쪽 자식 노드의 key값을 재귀적으로 출력한다.
+	// 왼쪽 자식 노드, 오른쪽 자식 노드의 key값을 재귀적으로 출력
 	printf("[%d] ", ptr->key);
 	if(ptr->left) preorderTraversal(ptr->left);
 	if(ptr->right) preorderTraversal(ptr->right);
