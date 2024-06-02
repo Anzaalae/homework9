@@ -16,7 +16,7 @@ int insertVertex(Node *head, int key);                      // 그래프에 정�
 int insertEdge(Node *head, int vertex1, int vertex2);       // 그래프에 간선을 추가한다.
 void printGraph(Node *head);                                // 그래프를 출력한다.
 void depthFirstSearch(Node *head, int key, int *visited);   // 그래프 깊이 우선 탐색을 수행한다.
-void enqueue(Queue **front, Queue **last, int key);         // 너비 우선 탐색에 사용할 큐 삽입 함수
+void enqueue(Queue **front, Queue **last, int key);         // 너비 우선 탐색에 사용할 큐 삽입 함수이다.
 int dequeue(Queue **front, Queue **last);                   // 너비 우선 탐색에 사용할 큐 삭제 함수
 void breathFirstSearch(Node *head, int key, int *visited); // 그래프 너비 우선 탐색을 수행한다.
 void freeGraph(Node *head);                                 // 그래프의 동적 메모리 할당을 해제한다.
